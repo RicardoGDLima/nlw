@@ -1,24 +1,13 @@
+import logo from './assets/logo-nlw-esports.svg'
 
-interface ButtonProps{
-  title: string;
-}
-
-function Button(props: ButtonProps) {
-  return (
-    <button>
-      {props.title}
-    </button>
-  )
-}
-
+import './styles/main.css'
 
 function App() {
   return (
-    <>
-    <Button title="Enviar"/>
-    <Button title="Send 2"/>
-    <Button title="Send 3"/>
-    </>
+    <div className="max-w-[1344] mx-auto flex flex-col items-center">
+      <img src={logo} alt=""></img>
+
+    </div>
   )
 }
 
