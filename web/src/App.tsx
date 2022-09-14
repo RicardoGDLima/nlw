@@ -15,7 +15,7 @@ function Button(props: ButtonProps) {
 function App() {
   return (
     <>
-    <Button title="Send 1"/>
+    <Button title="Enviar"/>
     <Button title="Send 2"/>
     <Button title="Send 3"/>
     </>
